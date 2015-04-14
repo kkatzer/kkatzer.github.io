@@ -1,0 +1,142 @@
+/**
+ * Fonts CSS
+ */
+
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-Regular.ttf');
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-Italic.ttf');
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-Thin.ttf');
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-ThinItalic.ttf');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-Light.ttf');
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-LightItalic.ttf');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-Medium.ttf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-MediumItalic.ttf');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-Bold.ttf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-BoldItalic.ttf');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-Black.ttf');
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url('Roboto-BlackItalic.ttf');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Open Sans;
+	src: url('Open Sans regular.ttf');
+}
+
+@font-face {
+	font-family: Open Sans;
+	src: url('Open Sans italic.ttf');
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Open Sans;
+	src: url('Open Sans 300.ttf');
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Open Sans;
+	src: url('Open Sans 300italic.ttf');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Open Sans;
+	src: url('Open Sans 600.ttf');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: Open Sans;
+	src: url('Open Sans 600italic.ttf');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Open Sans;
+	src: url('Open Sans 700.ttf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: Open Sans;
+	src: url('Open Sans 700italic.ttf');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Open Sans;
+	src: url('Open Sans 800.ttf');
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: Open Sans;
+	src: url('Open Sans 800italic.ttf');
+	font-weight: 800;
+	font-style: italic;
+}

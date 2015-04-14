@@ -3,11 +3,19 @@
  */
 
 body {
+	color: #646568;
+}
+
+.prime {
 	background-image: url('../background/05 copy.png');
 }
 
+.second {
+	background-image: url('../backgroung/02 copy.png');
+}
+
 .container {
-	max-width:670px;
+	max-width:730px;
 }
 .header {
 	background-color: #FFF;
@@ -28,6 +36,37 @@ body {
 }
 .photo img {
 	height:290px;
-	margin:-30px 0;
+	margin:-30px -15px;
 	float:left;
+}
+.photo p {
+	padding-top: 70px;
+	text-align:right;
+	font-family: Roboto;
+	font-size: 24pt;
+}
+
+.who {
+	margin-top:45px;
+	background-color: rgba(255,255,255,1);
+	-webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+}
+
+.who h2 {
+	margin-top: 45px;
+	margin-bottom: 35px;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 39pt;
+	text-align: center;
+}
+
+.who p{
+	font-family: Roboto;
+	font-size: 12pt;
+	line-height: 2em;
+	text-align: justify;
+	width:670px;
+	margin-bottom: 45px;
 }
