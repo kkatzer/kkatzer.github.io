@@ -8,42 +8,54 @@ body {
 
 .prime {
 	background-image: url('../background/05 copy.png');
+	background-attachment: fixed;
 }
 
 .second {
-	background-image: url('../backgroung/02 copy.png');
+	background-image: url('../background/02 copy.png');
+	background-attachment: fixed;
+	padding-top:80px;
 }
 
-.container {
-	max-width:730px;
-}
 .header {
 	background-color: #FFF;
 	height:165px;
 	-webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
 	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
 }
+
 .logo {
 	max-width:275px;
 	margin:auto;
 	padding-top:20px;
 }
+
+.photo .container {
+	max-width:730px;
+}
+
 .photo {
 	margin-top:45px;
 	background-color: rgba(255,255,255,0.8);
 	-webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
 	box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
 }
+
 .photo img {
 	height:290px;
 	margin:-30px -15px;
 	float:left;
 }
+
 .photo p {
 	padding-top: 70px;
 	text-align:right;
 	font-family: Roboto;
 	font-size: 24pt;
+}
+
+.who .container {
+	max-width:700px;
 }
 
 .who {
@@ -55,7 +67,6 @@ body {
 
 .who h2 {
 	margin-top: 45px;
-	margin-bottom: 35px;
 	font-family: Roboto;
 	font-weight: 300;
 	font-size: 39pt;
@@ -63,10 +74,34 @@ body {
 }
 
 .who p{
+	margin: 35px 0 45px 0;
 	font-family: Roboto;
 	font-size: 12pt;
 	line-height: 2em;
 	text-align: justify;
 	width:670px;
 	margin-bottom: 45px;
+}
+
+.portfolio .container {
+	max-width: 810px;
+}
+
+.portfolio {
+	-webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+}
+
+.portfolio .title {
+	padding-top:17px;
+	padding-bottom:16px;
+	background-color: rgba(255,255,255,1);
+}
+
+.portfolio h2 {
+	margin:0;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 39pt;
+	text-align: center;
 }
