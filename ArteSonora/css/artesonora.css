@@ -11,6 +11,7 @@ body {
 .prime {
 	background-image: url('../background/05 copy.png');
 	background-attachment: fixed;
+	z-index:2;
 }
 
 .second {
