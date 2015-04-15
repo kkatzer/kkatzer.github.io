@@ -387,9 +387,10 @@
   ],
   "js": [
     "dropdown.js",
+    "tab.js",
     "collapse.js",
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=0960be19394eb2c27841"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=b3ebd6860edb0d4249ee"
 }
