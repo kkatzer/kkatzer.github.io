@@ -17,6 +17,7 @@ body {
 	background-image: url('../background/02 copy.png');
 	background-attachment: fixed;
 	padding-top:80px;
+	z-index:1;
 }
 
 .header {
@@ -65,6 +66,7 @@ body {
 	background-color: rgba(255,255,255,1);
 	-webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
 	box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+	z-index:2;
 }
 
 .who h2 {
@@ -92,6 +94,7 @@ body {
 .portfolio {
 	-webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
 	box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+	margin-bottom: 60px;
 }
 
 .portfolio .title {
@@ -113,10 +116,78 @@ body {
 }
 
 .portfolio .body .row {
-	margin-top:40px;
+	margin:40px 0 0 0;
 	font-family: 'Roboto', sans-serif;
 	font-weight:300;
 	font-size: 27px;
 	text-align:center;
-	height: ;
+}
+
+.tab {
+	height: 55px;
+	padding-top:10px;
+	border: 1px solid #808080;
+	background-color: #FFFFFF;
+}
+
+.tab:first-of-type {
+	border-bottom-width: 0;
+	margin-left:1px;
+}
+
+.tab:nth-of-type(2) {
+	margin-left:-1px;
+	margin-right:-1px;
+}
+
+.tab:last-of-type {
+	/*margin-left:2px;*/
+}
+
+.sound .embed-responsive {
+	border: 1px solid #808080;
+	border-top-width: 0;
+	margin-right:2px;
+	margin-left:1px;
+	background-color: #FFFFFF;
+}
+
+.video {
+	margin:40px 0;
+	border: 1px solid #808080;
+	background-color: #FFFFFF;
+}
+
+.video h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	font-size: 27px;
+	text-align:center;
+}
+
+.video .embed-responsive {
+	margin: 10px;
+}
+
+.footer {
+	background-color: #808080;
+}
+
+.footer .container {
+	max-width: 700px;
+}
+
+.footer .container > img:first-of-type {
+	max-width:300px;
+	margin: 45px auto 0 auto;
+}
+
+.mail {
+	max-width: 40px;
+	float:left;
+}
+
+.footer p {
+	vertical-align: middle;
+	text-align: center;
 }
