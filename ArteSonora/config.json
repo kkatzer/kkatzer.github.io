@@ -379,6 +379,7 @@
   "css": [
     "type.less",
     "grid.less",
+    "glyphicons.less",
     "navs.less",
     "panels.less",
     "responsive-embed.less",
@@ -392,5 +393,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=b3ebd6860edb0d4249ee"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=12fdfd057fd3e6a25f32"
 }
