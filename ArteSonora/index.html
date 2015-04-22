@@ -20,10 +20,14 @@
 		<![endif]-->
 	</head>
 	<body>
+		<div class="dropdown">
+			<img class="logo img-responsive" src="img/menu.svg" alt="logo">
+			<a class="menu" href="#"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+		</div>
 		<div class="prime">
 			<div class="header">
 				<img class="logo img-responsive" src="img/logo.svg" alt="logo">
-				<!-- <div class="menu"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div> -->
+				<a class="menu" href="#"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
 			</div>
 
 			<div class="photo">
@@ -90,5 +94,20 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				if($(window).scrollTop() > 200){
+					$('.dropdown').addClass('show');
+				}
+				$(window).scroll(function(){
+					if($(window).scrollTop() > 200){
+						$('.dropdown').addClass('show');
+					}
+					else {
+						$('.dropdown').removeClass('show');
+					}
+				});
+			});
+		</script>
 	</body>
 </html>

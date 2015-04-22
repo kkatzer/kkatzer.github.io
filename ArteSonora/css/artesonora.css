@@ -8,14 +8,62 @@ body {
 	color: #646568;
 }
 
+.dropdown {
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:50px;
+	margin-top:-75px;
+	background-color: rgba(255,255,255,0.95);
+	z-index:999;
+	-webkit-transition: margin-top 0.5s ease-in;
+	-moz-transition: margin-top 0.5s ease-in;
+	-ms-transition: margin-top 0.5s ease-in;
+	-o-transition: margin-top 0.5s ease-in;
+	transition: margin-top 0.5s ease-in;
+}
+
+.dropdown.show {
+	margin-top:0px;
+}
+.dropdown .logo {
+	max-width: 153px;
+	margin: auto;
+	padding-top: 15px;
+}
+
 .menu {
-	float:left;
-	margin-top:-70px;
-	margin-left:10px;
+	float:right;
+	margin-right:50px;
+	margin-bottom:-20px;
+	background-color: #EB8023;
+	width: 35px;
+	height: 35px;
+	border-radius:17.5px;
+	-webkit-box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.5);
+	box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.5);
+	color: white;
+}
+
+.menu:hover {
+	background-color: #5BC2AF;
+}
+
+.dropdown .menu {
+	margin-top:-2.5px;
+}
+
+.header .menu {
+	margin-top:7.5px;
 }
 
 .menu span {
 	font-size:20px;
+	margin: auto;
+	text-align: center;
+	margin-left:7.5px;
+	margin-top:6.5px;
 }
 
 .prime {
@@ -40,7 +88,7 @@ body {
 	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
 }
 
-.logo {
+.header .logo {
 	max-width:275px;
 	margin:auto;
 	padding-top:20px;
@@ -226,7 +274,7 @@ body {
 	text-align: center;
 }
 
-small {
+smmargin-top {
 	font-size:12pt;
 	margin:1pt 0;
 }
