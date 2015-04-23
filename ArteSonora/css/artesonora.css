@@ -36,21 +36,22 @@ body {
 }
 
 .menu {
+	background-image: url('../img/50px_botao.svg');
+	background-repeat: no-repeat;
+	/*background-size: 50px 50px;*/
 	float:right;
 	margin-right:50px;
 	margin-bottom:-20px;
-	background-color: #EB8023;
+	border-radius:25px;
 	width: 50px;
 	height: 50px;
-	border-radius:25px;
 	-webkit-box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.5);
 	box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.5);
-	color: white;
 }
 
 .menu:hover {
-	background-color: #5BC2AF;
-	color: white;
+	background-image: url('../img/50px_botao_hover.svg');
+	background-repeat: no-repeat;
 }
 
 .dropdown .menu {
