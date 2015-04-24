@@ -38,7 +38,6 @@ body {
 .menu {
 	background-image: url('../img/50px_botao.svg');
 	background-repeat: no-repeat;
-	/*background-size: 50px 50px;*/
 	float:right;
 	margin-right:50px;
 	margin-bottom:-20px;
@@ -56,14 +55,6 @@ body {
 
 .dropdown .menu {
 	margin-top:-12.5px;
-}
-
-.menu span {
-	font-size:20px;
-	margin: auto;
-	text-align: center;
-	margin-left:14px;
-	margin-top:14px;
 }
 
 .prime {
