@@ -248,7 +248,7 @@ body {
 }
 
 .video .embed-responsive {
-	margin: 10px;
+	margin-bottom: -1px;
 }
 
 .footer {
