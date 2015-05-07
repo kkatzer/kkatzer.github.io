@@ -8,15 +8,39 @@ body {
 	color: #646568;
 }
 
+.content, .dropdown {
+	width:100%;
+	float:left;
+}
+
+.menu {
+	position:fixed;
+	width:200px;
+	background-color: rgba(55,55,55,1);
+	height:100%;
+	margin-left:100%;
+	z-index:5;
+}
+
+.menu .button {
+	height:55px;
+	border-bottom: 2px solid rgba(25,25,25,1);
+	border-top: 1px solid rgba(150,150,150,1);
+}
+
+.menu .button:active {
+	border-top: 1px solid rgba(15,15,15,1);
+	border-bottom: 1px solid rgba(120,120,120,1);
+}
+
 .dropdown {
 	position: fixed;
 	top:0;
 	left:0;
-	width:100%;
 	height:50px;
 	margin-top:-90px;
 	background-color: rgba(255,255,255,0.95);
-	z-index:999;
+	z-index:4;
 	-webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
 	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
 	-webkit-transition: margin-top 0.5s ease-in;
@@ -83,44 +107,33 @@ body {
 	padding-top:20px;
 }
 
-.photo .container {
-	max-width:730px;
-}
-
-.photo {
-	margin-top:45px;
-	background-color: rgba(255,255,255,0.8);
-	-webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
-	box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
-}
-
-.photo img {
-	height:290px;
-	margin:-30px -15px;
-	float:left;
-}
-
-.photo p {
-	padding-top: 70px;
-	text-align:right;
-	font-family: 'Roboto', sans-serif;
-	font-size: 24pt;
-}
-
 .who .container {
 	max-width:700px;
 }
 
 .who {
-	margin-top:45px;
-	background-color: rgba(255,255,255,1);
+	margin-top:80px;
 	-webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
 	box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
 	z-index:2;
 }
 
+.who .body {
+	background-color: rgba(255,255,255,1);
+}
+
+.who .body .container {
+	max-width:700px;
+}
+
+.who .title {
+	background-color: rgba(255,255,255,0.8);
+	padding-top:17px;
+	padding-bottom:16px;
+}
+
 .who h2 {
-	margin-top: 45px;
+	margin:0;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 39pt;
@@ -128,13 +141,11 @@ body {
 }
 
 .who p{
-	margin: 35px 0 45px 0;
+	margin: 25px 0 25px 0;
 	font-family: 'Roboto', sans-serif;
-	font-size: 12pt;
+	font-size: 10pt;
 	line-height: 2em;
 	text-align: justify;
-	width:670px;
-	margin-bottom: 45px;
 }
 
 .portfolio .container {
@@ -245,10 +256,6 @@ body {
 	font-weight:300;
 	font-size: 27px;
 	text-align:center;
-}
-
-.video .embed-responsive {
-	margin-bottom: -1px;
 }
 
 .footer {
