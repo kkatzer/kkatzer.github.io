@@ -85,6 +85,8 @@ body {
 	margin-bottom:-20px;
 	border-radius:25px;
 	font-size:50px;
+	height:49px;
+	width:49px;
 	background-color: white;
 	-webkit-box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.5);
 	box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.5);
