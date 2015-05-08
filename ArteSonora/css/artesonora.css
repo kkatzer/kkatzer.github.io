@@ -26,11 +26,31 @@ body {
 	height:55px;
 	border-bottom: 2px solid rgba(25,25,25,1);
 	border-top: 1px solid rgba(150,150,150,1);
+	color:#02BFDF;
+	font-size:33px;
+	padding-top:9px;
+	padding-left:15px;
 }
 
 .menu .button:active {
 	border-top: 1px solid rgba(15,15,15,1);
 	border-bottom: 1px solid rgba(120,120,120,1);
+}
+
+.menu .button:hover {
+	color:#EB8023;
+	cursor:pointer;
+}
+
+.menu .button span {
+	float:left;
+	margin-right:10px;
+}
+
+.menu h4 {
+	font-size:12pt;
+	font-family: 'Roboto', sans-serif;
+	color: #808184;
 }
 
 .dropdown {
