@@ -243,6 +243,7 @@ body {
 	margin-right:0;
 	margin-left:0;
 	background-color: #FFFFFF;
+	height:450px !important;
 }
 
 @media (min-width:992px) {
