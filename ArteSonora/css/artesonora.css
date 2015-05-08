@@ -156,15 +156,15 @@ body {
 	margin:0;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 39pt;
+	font-size: 37pt;
 	text-align: center;
 }
 
 .who p{
 	margin: 25px 0 25px 0;
 	font-family: 'Roboto', sans-serif;
-	font-size: 10pt;
-	line-height: 2em;
+	font-size: 11pt;
+	line-height: 2.2em;
 	text-align: justify;
 }
 
