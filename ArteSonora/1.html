@@ -160,10 +160,27 @@
 						$(".menu").css("margin-left", ($(window).width() - 200) + "px");
 					}
 					else {
-						$(".menu-button").addClass('hid');
+						$(".menu-button").addClass('		;
 						$(".content, .dropdown").css("margin-left", "0");
 						$(".menu").css("margin-left", "100%");
 					}
+				});
+				console.log($('.portfolio').scrollTop());
+				$(".button:first-of-type").click(function(e) {
+					e.preventDefault();
+					$('body').scrollTop(0);
+				});
+				$(".button:nth-of-type(2)").click(function(e) {
+					e.preventDefault();
+					$('body').scrollTop($('.portfolio').scrollTop());
+				});
+				$(".button:nth-of-type(3)").click(function(e) {
+					e.preventDefault();
+					$('body').scrollTop($('.video').scrollTop());
+				});
+				$(".button:last-of-type").click(function(e) {
+					e.preventDefault();
+					$('body').scrollTop($('.footer').scrollTop());
 				});
 			});
 		</script>
