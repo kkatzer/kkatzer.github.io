@@ -26,13 +26,17 @@
 	<body>
 		<div class="content">
 			<div class="dropdown">
-				<img class="logo img-responsive" src="img/menu.svg" alt="logo">
-				<a href="#" class="menu-button hid"><span class="icon-menu"></span></a>
+				<div class="container">
+					<img class="logo img-responsive" src="img/menu.svg" alt="logo">
+					<a href="#" class="menu-button hid"><span class="icon-menu"></span></a>
+				</div>
 			</div>
 			<div class="prime">
 				<div class="header">
-					<img class="logo img-responsive" src="img/logo.svg" alt="logo">
-					<a href="#" class="menu-button hid"><span class="icon-menu"></span></a>
+					<div class="container">
+						<img class="logo img-responsive" src="img/logo.svg" alt="logo">
+						<a href="#" class="menu-button hid"><span class="icon-menu"></span></a>
+					</div>
 				</div>
 				<div class="who">
 					<div class="title">
@@ -42,7 +46,7 @@
 						<div class="container">
 							<div class="row">
 								<div class="col-md-5 table">
-									<img src="img/foto.png" class="img-responsive" style="margin-top:37px">
+									<img src="img/foto.png" class="img-responsive" style="margin-top:22px">
 								</div>
 								<div class="col-md-7">
 									<p>Locutora, cantora e atriz com experiência prática acumulada ao longo de 10 anos no mercado nacional.<br><br>
@@ -156,8 +160,8 @@
 					e.preventDefault();
 					if ($(".menu-button").hasClass("hid")){
 						$(".menu-button").removeClass('hid');
-						$(".content, .dropdown").css("margin-left", "-200px");
-						$(".menu").css("margin-left", ($(window).width() - 200) + "px");
+						$(".content, .dropdown").css("margin-left", "-250px");
+						$(".menu").css("margin-left", ($(window).width() - 250) + "px");
 					}
 					else {
 						$(".menu-button").addClass('hid');

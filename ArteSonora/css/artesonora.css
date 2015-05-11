@@ -15,7 +15,7 @@ body {
 
 .menu {
 	position:fixed;
-	width:200px;
+	width:250px;
 	background-color: rgba(55,55,55,1);
 	height:100%;
 	margin-left:100%;
@@ -29,7 +29,7 @@ body {
 	color:#02BFDF;
 	font-size:33px;
 	padding-top:9px;
-	padding-left:15px;
+	padding-left:30px;
 }
 
 .menu .button:active {
@@ -51,6 +51,10 @@ body {
 	font-size:12pt;
 	font-family: 'Roboto', sans-serif;
 	color: #808184;
+}
+
+.dropdown .container, .header .container {
+	max-width: 895px;
 }
 
 .dropdown {
@@ -81,7 +85,7 @@ body {
 
 .icon-menu {
 	float:right;
-	margin-right:50px;
+	margin-right:0px;
 	margin-bottom:-20px;
 	border-radius:25px;
 	font-size:50px;
@@ -158,7 +162,7 @@ body {
 	margin:0;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 37pt;
+	font-size: 33pt;
 	text-align: center;
 }
 
@@ -166,7 +170,7 @@ body {
 	margin: 25px 0 25px 0;
 	font-family: 'Roboto', sans-serif;
 	font-size: 11pt;
-	line-height: 2.2em;
+	line-height: 2em;
 	text-align: justify;
 }
 
@@ -190,7 +194,7 @@ body {
 	margin:0;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 39pt;
+	font-size: 33pt;
 	text-align: center;
 }
 
