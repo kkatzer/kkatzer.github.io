@@ -94,7 +94,8 @@
 							<div class="video">
 								<h3>VÍDEOS</h3>
 								<div class="embed-responsive embed-responsive-16by9">
-									<iframe src="//player.vimeo.com/hubnut/album/3367475?color=000000&amp;background=ffffff&amp;slideshow=1&amp;video_title=1&amp;video_byline=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+									<!-- <iframe src="//player.vimeo.com/hubnut/album/3367475?color=000000&amp;background=ffffff&amp;slideshow=1&amp;video_title=1&amp;video_byline=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+									<iframe src="https://www.youtube.com/embed/videoseries?list=PLbkU2q4_3nYV8wPC3IKgLx8x886R5dBWM" allowfullscreen></iframe>
 								</div>
 							</div>
 						</div>
@@ -105,11 +106,17 @@
 					<div class="container">
 						<img src="img/rodape.svg" class="img-responsive" alt="logoRodape">
 						<div class="row">
-							<div class="col-md-7">
-								<img class="mail" src="img/mail.svg" alt="mail"><p> contato@artesonora.com.br</p>
+							<div class="col-md-1">
+								<span class="icon-mail"></span>
 							</div>
-							<div class="col-md-5">
-								<img class="phone" src="img/cell.svg" alt="phone"><p> <small>+55 41 </small>0000 0000</p>
+							<div class="col-md-6">
+								<p>contato@artesonora.com.br</p>
+							</div>
+							<div class="col-md-1">
+								<span class="icon-cell"></span>
+							</div>
+							<div class="col-md-4">
+								<p><small>+55 41 </small>0000 0000</p>
 							</div>
 						</div>
 						<p class="copyright">ARTESONORA&reg; Copyright 2015 | All rights reserved.</p>
@@ -193,6 +200,24 @@
 						scrollTop:$('.footer').offset().top + 50
 					},'500');
 				});
+
+				var hasFlash = false;
+				try {
+				  var fo = new ActiveXObject('ShockwaveFlash.ShockwaveFlash');
+				  if (fo) {
+				    hasFlash = true;
+				  }
+				} catch (e) {
+				  if (navigator.mimeTypes
+				        && navigator.mimeTypes['application/x-shockwave-flash'] != undefined
+				        && navigator.mimeTypes['application/x-shockwave-flash'].enabledPlugin) {
+				    hasFlash = true;
+				  }
+				}
+
+				if (!hasFlash){
+
+				}
 			});
 		</script>
 	</body>

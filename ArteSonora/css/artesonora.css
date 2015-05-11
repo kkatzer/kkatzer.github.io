@@ -304,24 +304,15 @@ body {
 	margin-top:45px;
 }
 
-.mail {
-	margin-left:52px;
-	margin-top:5px;
-	float:left;
-	max-width: 40px;
-	vertical-align: middle;
-}
-
-.phone {
-	margin-left:35px;
-	float:left;
-	max-width: 35px;
-	vertical-align: middle;
+.footer span {
+	float:right;
+	margin-top:;
+	margin-right:-25px;
+	font-size:30px;
+	color: #B3B3B3;
 }
 
 .footer .row p {
-	margin:5px;
-	margin-top:10px;
 	color: #B3B3B3;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14pt;
