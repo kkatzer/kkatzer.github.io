@@ -176,7 +176,9 @@
 					}
 				});
 				$(window).resize(function(e) {
+					console.log('lala');
 					e.preventDefault();
+					console.log('lala');
 					if (!$(".menu-button").hasClass("hid")){
 						$(".content, .dropdown").css("margin-left", "-250px");
 						$(".menu").css("margin-left", ($(window).width() - 250) + "px");
