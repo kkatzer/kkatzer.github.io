@@ -162,14 +162,14 @@ body {
 	margin:0;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 33pt;
+	font-size: 30pt;
 	text-align: center;
 }
 
 .who p{
 	margin: 25px 0 25px 0;
 	font-family: 'Roboto', sans-serif;
-	font-size: 11pt;
+	font-size: 12pt;
 	line-height: 2em;
 	text-align: justify;
 }
@@ -194,7 +194,7 @@ body {
 	margin:0;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	font-size: 33pt;
+	font-size: 30pt;
 	text-align: center;
 }
 
@@ -305,9 +305,6 @@ body {
 }
 
 .footer span {
-	float:right;
-	margin-top:;
-	margin-right:-25px;
 	font-size:30px;
 	color: #B3B3B3;
 }
@@ -316,8 +313,17 @@ body {
 	color: #B3B3B3;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14pt;
-	float:left;
+	margin:auto;
 	text-align: center;
+}
+
+@media (min-width:992px) {
+	.footer span {
+		margin-left:25px;
+	}
+	.footer .row p {
+		text-align: left;
+	}
 }
 
 .copyright {
