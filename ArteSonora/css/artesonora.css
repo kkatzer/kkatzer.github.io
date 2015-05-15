@@ -327,6 +327,14 @@ body {
 		margin-top:5px !important;
 		margin-left: 5px !important;
 	}
+
+	.footer .row div:nth-of-type(1) {
+		margin-left:50px;
+	}
+
+	.footer .row div:nth-of-type(2) {
+		margin-right:-80px;
+	}
 }
 
 @media (max-width:992px) {
