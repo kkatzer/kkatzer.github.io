@@ -3,6 +3,7 @@
  */
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
 	color: #646568;
@@ -168,7 +169,7 @@ body {
 
 .who p{
 	margin: 25px 0 25px 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 11pt;
 	line-height: 2em;
 	text-align: justify;
@@ -285,7 +286,7 @@ body {
 
 .footer .row p {
 	color: #B3B3B3;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14pt;
 	margin:auto;
 	text-align: center;
