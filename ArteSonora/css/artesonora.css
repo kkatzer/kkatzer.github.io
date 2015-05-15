@@ -2,7 +2,7 @@
  * Main CSS file.
  */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
@@ -162,7 +162,7 @@ body {
 .who h2 {
 	margin:0;
 	font-family: 'Roboto', sans-serif;
-	/*font-weight: 300;*/
+	font-weight: 100;
 	font-size: 33pt;
 	text-align: center;
 }
@@ -171,7 +171,7 @@ body {
 	margin: 25px 0 25px 0;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 11pt;
-	line-height: 2em;
+	line-height: 1.75em;
 	text-align: justify;
 }
 
@@ -194,7 +194,7 @@ body {
 .portfolio h2 {
 	margin:0;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
+	font-weight: 100;
 	font-size: 33pt;
 	text-align: center;
 }
