@@ -353,8 +353,8 @@ body {
 @media (max-width:992px) {
 	.who p {
 		font-size:12pt !important;
-		margin-right:15px;
-		margin-left:15px;
+		margin-right:20px;
+		margin-left:20px;
 	}
 	h2 {
 		font-size:27pt !important;
