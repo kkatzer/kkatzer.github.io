@@ -12,6 +12,10 @@ body {
 .content, .dropdown {
 	width:100%;
 	float:left;
+	-webkit-transition: margin 0.5s ease-in-out;
+	-moz-transition: margin 0.5s ease-in-out;
+	-o-transition: margin 0.5s ease-in-out;
+	transition: margin 0.5s ease-in-out;
 }
 
 .menu {
@@ -21,6 +25,10 @@ body {
 	height:100%;
 	margin-left:100%;
 	z-index:5;
+	-webkit-transition: margin 0.5s ease-in-out;
+	-moz-transition: margin 0.5s ease-in-out;
+	-o-transition: margin 0.5s ease-in-out;
+	transition: margin 0.5s ease-in-out;
 }
 
 .menu .button {
