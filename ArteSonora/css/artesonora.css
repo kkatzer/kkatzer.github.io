@@ -285,7 +285,7 @@ body {
 
 .footer .container > img:first-of-type {
 	max-width:300px;
-	margin: 45px auto 0 auto;
+	margin: 30px auto 0 auto;
 }
 
 .footer .row {
@@ -359,10 +359,6 @@ body {
 	}
 	.portfolio .body .row {
 		font-size:16pt !important;
-	}
-
-	.footer .container > img:first-of-type {
-		margin-top: 30px;
 	}
 
 	.footer .row {
