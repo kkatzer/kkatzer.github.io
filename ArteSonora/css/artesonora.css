@@ -14,6 +14,7 @@ body {
 	float:left;
 	-webkit-transition: margin 0.5s ease-in-out;
 	-moz-transition: margin 0.5s ease-in-out;
+	-ms-transition: margin 0.5s ease-in-out;
 	-o-transition: margin 0.5s ease-in-out;
 	transition: margin 0.5s ease-in-out;
 }
@@ -27,6 +28,7 @@ body {
 	z-index:5;
 	-webkit-transition: margin 0.5s ease-in-out;
 	-moz-transition: margin 0.5s ease-in-out;
+	-ms-transition: margin 0.5s ease-in-out;
 	-o-transition: margin 0.5s ease-in-out;
 	transition: margin 0.5s ease-in-out;
 }
@@ -76,11 +78,11 @@ body {
 	z-index:4;
 	-webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
 	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-	-webkit-transition: margin-top 0.5s ease-in;
-	-moz-transition: margin-top 0.5s ease-in;
-	-ms-transition: margin-top 0.5s ease-in;
-	-o-transition: margin-top 0.5s ease-in;
-	transition: margin-top 0.5s ease-in;
+	-webkit-transition: margin 0.5s ease-in-out;
+	-moz-transition: margin 0.5s ease-in-out;
+	-ms-transition: margin 0.5s ease-in-out;
+	-o-transition: margin 0.5s ease-in-out;
+	transition: margin 0.5s ease-in-out;
 }
 
 .dropdown.show {
@@ -173,6 +175,7 @@ body {
 	font-weight: 100;
 	font-size: 33pt;
 	text-align: center;
+	letter-spacing: 3px;
 }
 
 .who p{
@@ -205,6 +208,7 @@ body {
 	font-weight: 100;
 	font-size: 33pt;
 	text-align: center;
+	letter-spacing: 3px;
 }
 
 .portfolio .body {
