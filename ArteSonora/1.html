@@ -45,10 +45,10 @@
 					<div class="body">
 						<div class="container">
 							<div class="row">
-								<div class="col-sm-5 table">
+								<div class="col-md-5 table">
 									<img src="img/foto.png" class="img-responsive" style="margin-top:7px;text-align:center">
 								</div>
-								<div class="col-sm-7">
+								<div class="col-md-7">
 									<p>Locutora, cantora e atriz com experiência prática acumulada ao longo de 10 anos no mercado nacional.<br><br>
 									Profissional especializada em locuções diversas com versatilidade no uso da voz.<br><br>
 									Atua com domínio nas áreas: publicitária, jingle, institucional, dublagem e documentários, incluindo audiolivros e trabalhos em inglês.</p>
@@ -184,40 +184,32 @@
 				});
 				$(".button:first-of-type").click(function(e) {
 					e.preventDefault();
-					$('body, html').animate({
+					$('body').animate({
 						scrollTop:0
 					},'500');
-					$('html').css('margin-top', '0');
-					$(".menu-button").addClass('hid');
-					$(".content, .dropdown").css("margin-left", "0");
-					$(".menu").css("margin-left", "100%");
 				});
 				$(".button:nth-of-type(2)").click(function(e) {
 					e.preventDefault();
-					$('body, html').animate({
+					$('body').animate({
 						scrollTop:$('.portfolio').offset().top + 50
 					},'500');
-					$(".menu-button").addClass('hid');
-					$(".content, .dropdown").css("margin-left", "0");
-					$(".menu").css("margin-left", "100%");
 				});
 				$(".button:nth-of-type(3)").click(function(e) {
 					e.preventDefault();
+<<<<<<< HEAD
 					$('body, html').animate({
 						scrollTop:$('.video').offset().top - 50
+=======
+					$('body').animate({
+						scrollTop:$('.video').offset().top + 50
+>>>>>>> parent of 87bfb73... lala
 					},'500');
-					$(".menu-button").addClass('hid');
-					$(".content, .dropdown").css("margin-left", "0");
-					$(".menu").css("margin-left", "100%");
 				});
 				$(".button:last-of-type").click(function(e) {
 					e.preventDefault();
-					$('body, html').animate({
+					$('body').animate({
 						scrollTop:$('.footer').offset().top + 50
 					},'500');
-					$(".menu-button").addClass('hid');
-					$(".content, .dropdown").css("margin-left", "0");
-					$(".menu").css("margin-left", "100%");
 				});
 
 				var hasFlash = false;
