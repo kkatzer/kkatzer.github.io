@@ -164,6 +164,10 @@ body {
 	padding:25px 0;
 }
 
+.who img {
+	margin:auto;
+}
+
 .who .title {
 	background-color: rgba(255,255,255,0.8);
 	padding-top:17px;
@@ -359,8 +363,30 @@ body {
 	h2 {
 		font-size:27pt !important;
 	}
+
+	.tab:first-of-type {
+		border-bottom-width:0 !important;
+	}
+
+	.tab:nth-of-type(2) {
+		border-bottom-width:0 !important;
+	}
+
+	.tab:last-of-type {
+		border-bottom-width:1px !important;
+	}
+	.portfolio .tab {
+		background-color: rgba(255,255,255,0);
+	}
+	.portfolio .tab.active {
+		background-color: rgba(255,255,255,1);
+	}
 	.portfolio .body .row {
 		font-size:16pt !important;
+	}
+
+	.portfolio .container {
+		padding:0;
 	}
 
 	.footer .row {
