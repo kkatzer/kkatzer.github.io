@@ -45,10 +45,10 @@
 					<div class="body">
 						<div class="container">
 							<div class="row">
-								<div class="col-md-5 table">
+								<div class="col-sm-5 table">
 									<img src="img/foto.png" class="img-responsive" style="margin-top:7px;text-align:center">
 								</div>
-								<div class="col-md-7">
+								<div class="col-sm-7">
 									<p>Locutora, cantora e atriz com experiência prática acumulada ao longo de 10 anos no mercado nacional.<br><br>
 									Profissional especializada em locuções diversas com versatilidade no uso da voz.<br><br>
 									Atua com domínio nas áreas: publicitária, jingle, institucional, dublagem e documentários, incluindo audiolivros e trabalhos em inglês.</p>
@@ -72,19 +72,19 @@
 									<div role="presentation" id="ajingle" class="col-md-2 tab"><a href="#jingle" aria-controls="jingle" role="tab" data-toggle="tab"><span></span></a><span>JINGLE</span></div>
 									<div role="presentation" id="ainstitucional" class="col-md-4 tab"><a href="#institucional" aria-controls="jingle" role="tab" data-toggle="tab"><span></span></a><span>INSTITUCIONAL</span></div>
 								</div>
-								<div class="tab-content">
+								<div class="tab-content playlists">
 									<div class="tab-pane active" role="tabpanel" id="locucao">
-										<div class="embed-responsive embed-responsive-16by9">
+										<div>
 											<iframe width="100%" scrolling="yes" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/60931473&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 										</div>
 									</div>
 									<div class="tab-pane" role="tabpanel" id="jingle">
-										<div class="embed-responsive embed-responsive-16by9">
+										<div>
 											<iframe width="100%" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/101541270&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 										</div>
 									</div>
 									<div class="tab-pane" role="tabpanel" id="institucional">
-										<div class="embed-responsive embed-responsive-16by9">
+										<div>
 											<iframe width="100%" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/101540935&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 										</div>
 									</div>
@@ -204,7 +204,7 @@
 				$(".button:nth-of-type(3)").click(function(e) {
 					e.preventDefault();
 					$('body, html').animate({
-						scrollTop:$('.video').offset().top + 150
+						scrollTop:$('.video').offset().top - 50
 					},'500');
 					$(".menu-button").addClass('hid');
 					$(".content, .dropdown").css("margin-left", "0");
