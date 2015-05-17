@@ -166,6 +166,7 @@ body {
 
 .who img {
 	margin:auto;
+	max-width:350px;
 }
 
 .who .title {
@@ -391,6 +392,12 @@ body {
 
 	.footer .row {
 		margin-top:34px;
+	}
+}
+
+@media (max-width:992px) and (min-width:768px) {
+	.who img {
+		margin-top: 28px !important;
 	}
 }
 
