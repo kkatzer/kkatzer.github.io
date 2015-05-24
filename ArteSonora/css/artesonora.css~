@@ -4,6 +4,13 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+html, body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 body {
 	color: #646568;
@@ -144,16 +151,8 @@ body {
 	padding-top:20px;
 }
 
-.playlists iframe {
-	height:450px !important;
-}
-
 .who .container {
 	max-width:700px;
-}
-
-.who img {
-	margin:auto;
 }
 
 .who {
@@ -170,6 +169,10 @@ body {
 .who .body .container {
 	max-width:700px;
 	padding:25px 0;
+}
+
+.who img {
+	margin:auto;
 }
 
 .who .title {
@@ -317,6 +320,11 @@ body {
 	margin-bottom:25px;
 }
 
+a, a:hover {
+	color: inherit;
+	text-decoration: inherit;
+}
+
 @media (min-width:992px) {
 	.footer span {
 		margin-left:25px;
@@ -342,11 +350,22 @@ body {
 		margin-right:1px;
 		margin-left:1px;
 	}
+	
+	.fb-text {
+		 margin-left:20px !important;
+		font-size: 11pt !important;
+		margin-top:5px !important;
+	}
 
 	.text {
 		font-size: 11pt !important;
 		margin-top:5px !important;
 		margin-left: 5px !important;
+	}
+
+	.fb-icon {
+		float: right !important;
+		margin-right:-40px !important;
 	}
 
 	.footer .row div:nth-of-type(1) {
@@ -367,13 +386,6 @@ body {
 	h2 {
 		font-size:27pt !important;
 	}
-	.portfolio .body .row {
-		font-size:16pt !important;
-	}
-
-	.footer .row {
-		margin-top:34px;
-	}
 
 	.tab:first-of-type {
 		border-bottom-width:0 !important;
@@ -386,13 +398,28 @@ body {
 	.tab:last-of-type {
 		border-bottom-width:1px !important;
 	}
-	
-	.tab {
+	.portfolio .tab {
 		background-color: rgba(255,255,255,0);
 	}
-	
-	.tab:active {
+	.portfolio .tab.active {
 		background-color: rgba(255,255,255,1);
+	}
+	.portfolio .body .row {
+		font-size:16pt !important;
+	}
+
+	.portfolio .container {
+		padding:0;
+	}
+
+	.footer .row:first-of-type {
+		margin-top:34px;
+	}
+}
+
+@media (max-width:992px) and (min-width:768px) {
+	.who img {
+		margin-top: 28px !important;
 	}
 }
 

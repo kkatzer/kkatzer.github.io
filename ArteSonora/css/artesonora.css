@@ -299,7 +299,7 @@ body {
 	margin: 30px auto 0 auto;
 }
 
-.footer .row {
+.footer .row:first-of-type {
 	margin-top:45px;
 }
 
@@ -318,6 +318,11 @@ body {
 
 .footer .row div:nth-of-type(2) {
 	margin-bottom:25px;
+}
+
+a, a:hover {
+	color: inherit;
+	text-decoration: inherit;
 }
 
 @media (min-width:992px) {
@@ -345,11 +350,22 @@ body {
 		margin-right:1px;
 		margin-left:1px;
 	}
+	
+	.fb-text {
+		 margin-left:20px !important;
+		font-size: 11pt !important;
+		margin-top:5px !important;
+	}
 
 	.text {
 		font-size: 11pt !important;
 		margin-top:5px !important;
 		margin-left: 5px !important;
+	}
+
+	.fb-icon {
+		float: right !important;
+		margin-right:-40px !important;
 	}
 
 	.footer .row div:nth-of-type(1) {
@@ -396,7 +412,7 @@ body {
 		padding:0;
 	}
 
-	.footer .row {
+	.footer .row:first-of-type {
 		margin-top:34px;
 	}
 }
